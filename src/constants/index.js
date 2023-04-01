@@ -23,6 +23,8 @@ import {
     jobit,
     tripguide,
     threejs,
+    kellerW,
+    teamgenerator
   } from "../assets";
   
   export const navLinks = [
@@ -124,7 +126,7 @@ import {
     {
       title: "Realtor",
       company_name: "Keller Williams Prosperity",
-      icon: shopify,
+      icon: kellerW,
       iconBg: "#383E56",
       date: "August 2021 - Present",
       points: [
@@ -207,24 +209,24 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "Team Profile Generator",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "This is an App that can be used to generate an html file with members of a software engineering team.",
       tags: [
         {
-          name: "nextjs",
-          color: "blue-text-gradient",
+          name: "javascript",
+          color: "yellow-text-gradient",
         },
         {
-          name: "supabase",
-          color: "green-text-gradient",
+          name: "html",
+          color: "orange-text-gradient",
         },
         {
           name: "css",
-          color: "pink-text-gradient",
+          color: "blue-text-gradient",
         },
       ],
-      image: tripguide,
+      image: teamgenerator,
       source_code_link: "https://github.com/",
     },
   ];
