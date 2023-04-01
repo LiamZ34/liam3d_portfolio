@@ -27,10 +27,9 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import kellerW from "./company/KellerW.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+
 import teamgenerator from "./teamgenerator.png";
+import bookengine from "./bookengine.png";
 
 export {
   logo,
@@ -58,9 +57,7 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
   kellerW,
   teamgenerator,
+  bookengine,
 };

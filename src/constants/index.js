@@ -19,9 +19,8 @@ import {
     starbucks,
     tesla,
     shopify,
-    carrent,
-    jobit,
-    tripguide,
+    bookengine,
+    
     threejs,
     kellerW,
     teamgenerator
@@ -167,9 +166,9 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Book Engine Search",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "This is a web-based app which allows you to search for books, and save them to your favorites when you've created an account",
       tags: [
         {
           name: "react",
@@ -180,11 +179,11 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
-          color: "pink-text-gradient",
+          name: "bootstrap",
+          color: "purple-text-gradient",
         },
       ],
-      image: carrent,
+      image: bookengine,
       source_code_link: "https://github.com/",
     },
     {
@@ -197,7 +196,7 @@ import {
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "bootstrap",
           color: "green-text-gradient",
         },
         {
@@ -205,7 +204,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
+      image: bookengine,
       source_code_link: "https://github.com/",
     },
     {
