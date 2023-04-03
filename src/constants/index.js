@@ -23,6 +23,7 @@ import {
     
     threejs,
     kellerW,
+    honda,
     teamgenerator
   } from "../assets";
   
@@ -112,7 +113,7 @@ import {
     {
       title: "Sales Consultant",
       company_name: "Garden State Honda",
-      icon: tesla,
+      icon: honda,
       iconBg: "#E6DEDD",
       date: "February 2019 - December 2021",
       points: [

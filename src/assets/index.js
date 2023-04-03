@@ -26,6 +26,7 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import kellerW from "./company/KellerW.png";
+import honda from "./company/honda.png"
 
 
 import teamgenerator from "./teamgenerator.png";
@@ -58,6 +59,7 @@ export {
   starbucks,
   tesla,
   kellerW,
+  honda,
   teamgenerator,
   bookengine,
 };
