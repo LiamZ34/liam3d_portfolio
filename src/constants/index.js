@@ -1,10 +1,8 @@
 import {
-    mobile,
     backend,
-    creator,
-    web,
+    frontend,
+    reactnative,
     javascript,
-    typescript,
     html,
     css,
     reactjs,
@@ -13,18 +11,14 @@ import {
     nodejs,
     mongodb,
     git,
-    figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
     bookengine,
     
     threejs,
     kellerW,
     honda,
-    teamgenerator
+    mountain,
+    teamgenerator,
+    jate,
   } from "../assets";
   
   export const navLinks = [
@@ -45,11 +39,11 @@ import {
   const services = [
     {
       title: "Front-End Developer",
-      icon: web,
+      icon: frontend,
     },
     {
       title: "React Native Developer",
-      icon: mobile,
+      icon: reactnative,
     },
     {
       title: "Back-End Developer",
@@ -100,7 +94,7 @@ import {
     {
       title: "Waiter/Foodrunner/Setup",
       company_name: "Mountain Ridge Country Club",
-      icon: starbucks,
+      icon: mountain,
       iconBg: "#383E56",
       date: "October 2017 - February 2019",
       points: [
@@ -141,27 +135,11 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "",
+      name: "",
+      designation: "",
+      company: "",
+      image: "",
     },
   ];
   
@@ -185,28 +163,32 @@ import {
         },
       ],
       image: bookengine,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/LiamZ34/book-engine-search",
     },
     {
-      name: "Job IT",
+      name: "Just Another Text Editor",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Just Another Text Editor (JATE) is a Progressive Web Application that runs in the browser and functions offline. It gets and stores data to an indexedDB database. ",
       tags: [
         {
-          name: "react",
-          color: "blue-text-gradient",
+          name: "javascript",
+          color: "yellow-text-gradient",
         },
         {
-          name: "bootstrap",
+          name: "nodejs",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "npm",
           color: "pink-text-gradient",
         },
+        {
+          name: "expressjs",
+          color: "",
+        }
       ],
-      image: bookengine,
-      source_code_link: "https://github.com/",
+      image: jate,
+      source_code_link: "https://github.com/LiamZ34/text-editor",
     },
     {
       name: "Team Profile Generator",
@@ -227,7 +209,7 @@ import {
         },
       ],
       image: teamgenerator,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/LiamZ34/team-profile-generator",
     },
   ];
   
