@@ -92,7 +92,7 @@ import {
   
   const experiences = [
     {
-      title: "Waiter/Foodrunner/Setup",
+      title: "Waiter/Foodrunner",
       company_name: "Mountain Ridge Country Club",
       icon: mountain,
       iconBg: "#383E56",
