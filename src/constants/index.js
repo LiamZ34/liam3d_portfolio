@@ -17,6 +17,7 @@ import {
     kellerW,
     honda,
     mountain,
+    SE,
     teamgenerator,
     jate,
   } from "../assets";
@@ -92,11 +93,11 @@ import {
   
   const experiences = [
     {
-      title: "Waiter/Foodrunner",
-      company_name: "Mountain Ridge Country Club",
-      icon: mountain,
+      title: "Junior SQL Developer",
+      company_name: "Stable Energies Motorsports",
+      icon: SE,
       iconBg: "#383E56",
-      date: "October 2017 - February 2019",
+      date: "May 2023 - Present",
       points: [
         "Setup rooms for parties & events ",
         "Made sure food was going out of the kitchen correctly/Delivered food to the guests/members",
@@ -104,19 +105,7 @@ import {
         "Took orders of the Members ",
       ],
     },
-    {
-      title: "Sales Consultant",
-      company_name: "Garden State Honda",
-      icon: honda,
-      iconBg: "#E6DEDD",
-      date: "February 2019 - December 2021",
-      points: [
-        "Be patient with clients whether they are or aren't ready to purchase ",
-        "Learn all the product information to be able to answer any and every customer question ",
-        "Follow up with past customers and make sure they are still happy with the purchase of the product",
-        "Adapt to certain situations such as a taking over other positions such as, Finance Department , Desk management",
-      ],
-    },
+
     {
       title: "Realtor",
       company_name: "Keller Williams Prosperity",
@@ -128,6 +117,20 @@ import {
         "Have great customer service and understanding",
         "Have written communication skills",
         "Be able to adapt to changes in systems and locations",
+      ],
+    },
+
+    {
+      title: "Sales Consultant",
+      company_name: "Garden State Honda",
+      icon: honda,
+      iconBg: "#E6DEDD",
+      date: "February 2019 - December 2021",
+      points: [
+        "Be patient with clients whether they are or aren't ready to purchase ",
+        "Learn all the product information to be able to answer any and every customer question ",
+        "Follow up with past customers and make sure they are still happy with the purchase of the product",
+        "Adapt to certain situations such as a taking over other positions such as, Finance Department , Desk management",
       ],
     },
   ];
